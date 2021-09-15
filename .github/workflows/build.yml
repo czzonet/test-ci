@@ -33,7 +33,6 @@ jobs:
           # touch ./release/readme.txt
           # ls ${{ github.workspace }}
           ls ./release
-          ls ./release/mac
           # mkdir ~/Desktop/certificates/
           # touch ~/Desktop/certificates/readme.txt
 
