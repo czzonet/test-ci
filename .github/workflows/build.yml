@@ -20,12 +20,12 @@ jobs:
 
       - name: Pre-dump cert
         run: |
-          mkdir ~/release
-          echo "test" >./release.exe 
-          echo "test" >./release.dmg
-          echo "test" >./release.zip
-          echo "test" >./latest.yml
-          echo "test" >./latest-mac.yml
+          mkdir ./release
+          echo "test" >./release/pdf.exe 
+          echo "test" >./release/pdf.dmg
+          echo "test" >./release/pdf.zip
+          echo "test" >./release/latest.yml
+          echo "test" >./release/latest-mac.yml
 
       - name: List files in the repository
         run: |
